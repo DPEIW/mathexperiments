@@ -9,10 +9,10 @@ ax = plt.axes(projection ='3d')
  
 # defining all 3 axis
 z = np.linspace(0, 1, 100)
-x = z * np.sin(25 * z)
+x = z * np.sin(50 * z)
 y = z * np.cos(25 * z)
  
 # plotting
 ax.plot3D(x, y, z, 'green')
-ax.set_title('3D line plot geeks for geeks')
+ax.set_title('3D line plot')
 plt.show()
